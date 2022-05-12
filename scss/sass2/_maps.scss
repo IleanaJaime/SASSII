@@ -1,0 +1,14 @@
+@import"../variables/variables";
+
+$redes: (
+    color: $beige,
+    centro: $alinear-al-centro,
+    margin: 0%,
+    padding: 0%,
+    ancho: $ancho
+);
+
+body{
+    background-color: map-get($redes, color);
+    width: map-get($redes, ancho);
+}

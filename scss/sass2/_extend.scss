@@ -1,0 +1,10 @@
+@import"../variables/variables";
+
+.header-footer{
+    background-color: $fondo-de-color;
+    font-size: $size;
+    font-family: $tipo-de-letra;
+    justify-content: $alinear-al-centro;
+    text-align: center;
+    text-decoration: none;
+}

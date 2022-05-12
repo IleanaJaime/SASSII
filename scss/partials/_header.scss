@@ -1,0 +1,27 @@
+@import"./partials/all";
+@import"./partials/index";
+@import"./partials/productos";
+@import"./sass2/extend";
+@import"./sass2/maps";
+@import"./sass2/mixins";
+@import"./variables/variables";
+
+
+
+header{
+    @extend .header-footer;
+    nav{
+        @include felizibilizar-centrar;
+        a{
+            @include estilos-de-anclas;
+        }
+    }
+}
+
+footer{
+    @extend .header-footer;
+    @include felizibilizar-centrar;
+    a{
+@include estilos-de-anclas;}
+}
+

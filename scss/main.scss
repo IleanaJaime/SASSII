@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import"./partials/all";
+@import"./partials/index";
+@import"./partials/productos";
+@import"./sass2/extend";
+@import"./sass2/maps";
+@import"./sass2/mixins";
+@import"./variables/variables";
+@import"./partials/header";
